@@ -1,9 +1,11 @@
 .App {
-  height: 100vh;
   background-image: url("./image/sky3.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   padding: 50px;
-  overflow: hidden;
+
+  @media screen and (max-width: 767px) {
+    padding: 20px;
+  }
 }

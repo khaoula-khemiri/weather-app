@@ -27,7 +27,6 @@ const Weather = () => {
 
     useEffect(() => {
         searchCity(city)
-        console.log("her ");
     }, [])
 
     const handleKeyPress = (event) => {
@@ -55,7 +54,6 @@ const Weather = () => {
                     setdescription(data.list[0].weather[0].description)
                     setdescNote(data.list[0].weather[0].main)
                     setdate(forecast[0].dt_txt);
-                    console.log(forecast[0]);
                     let i = 1;
                     let j = 0;
                     let a = []
@@ -70,7 +68,6 @@ const Weather = () => {
                                 "desc": forecast[i].weather[0].main
                             }
                             a.push(array)
-
                             today = date
                             j++
                         }
