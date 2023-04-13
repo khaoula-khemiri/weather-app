@@ -81,6 +81,7 @@
 
                         @media screen and (max-width: 767px) {
                             font-size: 30px;
+                            color: rgb(8, 23, 45);
                         }
                     }
                 }
@@ -90,6 +91,11 @@
                     padding-top: 50px;
                     color: rgb(34, 113, 231);
                     font-weight: 400;
+
+                    @media screen and (max-width: 767px) {
+
+                        color: rgb(8, 23, 45);
+                    }
                 }
             }
 
