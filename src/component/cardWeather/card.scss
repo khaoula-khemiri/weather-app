@@ -1,0 +1,39 @@
+.card {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    padding: 15px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+
+    .day {
+        color: rgb(83, 175, 215);
+        font-size: 20px;
+    }
+
+    .imgCard {
+        img {
+            width: 60px;
+            height: 60px;
+        }
+
+    }
+
+    .infoCard {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}

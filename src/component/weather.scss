@@ -1,0 +1,98 @@
+.weather {
+
+
+    .top {
+        display: flex;
+        justify-content: space-around;
+
+        .right {
+            color: white;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .inputContainer {
+                display: flex;
+                gap: 30px;
+
+                input {
+                    background-color: white;
+                    color: black;
+                    padding: 3px;
+                    width: 50%;
+                    border: none;
+                    font-size: 15px;
+                    border-radius: 5px;
+                }
+
+                .inputNote {
+                    font-size: 20px;
+                    color: red;
+                }
+            }
+
+            .rightInformation {
+                display: flex;
+                justify-content: space-between;
+
+                .selectCity {
+                    font-size: 60px;
+
+                    .city {
+                        text-transform: capitalize;
+                    }
+
+                    .day {
+                        font-size: 40px;
+                        font-weight: 600;
+                        padding-top: 20px;
+                        color: rgb(34, 113, 231);
+                    }
+                }
+
+                .information {
+                    font-size: 25px;
+                    padding-top: 50px;
+                    color: rgb(34, 113, 231);
+                    font-weight: 400;
+                }
+            }
+
+        }
+
+        .left {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+
+
+            .temprature {
+                color: white;
+                font-size: 60px;
+                padding: 10px;
+                font-weight: 700;
+            }
+
+            .weatherImage {
+                img {
+                    width: 200px;
+                    height: 200px;
+                }
+
+            }
+        }
+    }
+
+    .bottom {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+
+    }
+}
